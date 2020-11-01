@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC97D5CE254F1CFC00A3E5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D5CD254F1CFC00A3E5C3 /* AppDelegate.swift */; };
+		AC97D5D0254F1CFC00A3E5C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D5CF254F1CFC00A3E5C3 /* SceneDelegate.swift */; };
+		AC97D5D2254F1CFC00A3E5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D5D1254F1CFC00A3E5C3 /* ViewController.swift */; };
+		AC97D5D5254F1CFC00A3E5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC97D5D3254F1CFC00A3E5C3 /* Main.storyboard */; };
+		AC97D5D7254F1CFE00A3E5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC97D5D6254F1CFE00A3E5C3 /* Assets.xcassets */; };
+		AC97D5DA254F1CFE00A3E5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC97D5D8254F1CFE00A3E5C3 /* LaunchScreen.storyboard */; };
+		AC97D5DF254F1CFF00A3E5C3 /* Convertch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AC97D5DE254F1CFE00A3E5C3 /* Convertch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC97D5E5254F1CFF00A3E5C3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC97D5E3254F1CFF00A3E5C3 /* Interface.storyboard */; };
+		AC97D5E7254F1D0000A3E5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC97D5E6254F1D0000A3E5C3 /* Assets.xcassets */; };
+		AC97D5EE254F1D0000A3E5C3 /* Convertch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC97D5ED254F1D0000A3E5C3 /* Convertch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC97D5F3254F1D0000A3E5C3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D5F2254F1D0000A3E5C3 /* InterfaceController.swift */; };
+		AC97D5F5254F1D0000A3E5C3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D5F4254F1D0000A3E5C3 /* ExtensionDelegate.swift */; };
+		AC97D5F7254F1D0000A3E5C3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D5F6254F1D0000A3E5C3 /* NotificationController.swift */; };
+		AC97D5F9254F1D0000A3E5C3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D5F8254F1D0000A3E5C3 /* ComplicationController.swift */; };
+		AC97D5FB254F1D0200A3E5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC97D5FA254F1D0200A3E5C3 /* Assets.xcassets */; };
+		AC97D614254F1DF100A3E5C3 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D60F254F1DF100A3E5C3 /* Commons.swift */; };
+		AC97D616254F1DF100A3E5C3 /* ConversionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97D611254F1DF100A3E5C3 /* ConversionInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC97D5E0254F1CFF00A3E5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC97D5C2254F1CFC00A3E5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC97D5DD254F1CFE00A3E5C3;
+			remoteInfo = "Convertch WatchKit App";
+		};
+		AC97D5EF254F1D0000A3E5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC97D5C2254F1CFC00A3E5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC97D5EC254F1D0000A3E5C3;
+			remoteInfo = "Convertch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC97D603254F1D0200A3E5C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AC97D5EE254F1D0000A3E5C3 /* Convertch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC97D607254F1D0200A3E5C3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AC97D5DF254F1CFF00A3E5C3 /* Convertch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC97D5CA254F1CFC00A3E5C3 /* Convertch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convertch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC97D5CD254F1CFC00A3E5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC97D5CF254F1CFC00A3E5C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC97D5D1254F1CFC00A3E5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC97D5D4254F1CFC00A3E5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC97D5D6254F1CFE00A3E5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC97D5D9254F1CFE00A3E5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC97D5DB254F1CFE00A3E5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC97D5DE254F1CFE00A3E5C3 /* Convertch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convertch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC97D5E4254F1CFF00A3E5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AC97D5E6254F1D0000A3E5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC97D5E8254F1D0000A3E5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC97D5ED254F1D0000A3E5C3 /* Convertch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Convertch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC97D5F2254F1D0000A3E5C3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AC97D5F4254F1D0000A3E5C3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AC97D5F6254F1D0000A3E5C3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AC97D5F8254F1D0000A3E5C3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AC97D5FA254F1D0200A3E5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC97D5FC254F1D0200A3E5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC97D5FD254F1D0200A3E5C3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AC97D60F254F1DF100A3E5C3 /* Commons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		AC97D611254F1DF100A3E5C3 /* ConversionInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC97D5C7254F1CFC00A3E5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC97D5EA254F1D0000A3E5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC97D5C1254F1CFC00A3E5C3 = {
+			isa = PBXGroup;
+			children = (
+				AC97D5CC254F1CFC00A3E5C3 /* Convertch */,
+				AC97D5E2254F1CFF00A3E5C3 /* Convertch WatchKit App */,
+				AC97D5F1254F1D0000A3E5C3 /* Convertch WatchKit Extension */,
+				AC97D5CB254F1CFC00A3E5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC97D5CB254F1CFC00A3E5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC97D5CA254F1CFC00A3E5C3 /* Convertch.app */,
+				AC97D5DE254F1CFE00A3E5C3 /* Convertch WatchKit App.app */,
+				AC97D5ED254F1D0000A3E5C3 /* Convertch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC97D5CC254F1CFC00A3E5C3 /* Convertch */ = {
+			isa = PBXGroup;
+			children = (
+				AC97D5CD254F1CFC00A3E5C3 /* AppDelegate.swift */,
+				AC97D5CF254F1CFC00A3E5C3 /* SceneDelegate.swift */,
+				AC97D5D1254F1CFC00A3E5C3 /* ViewController.swift */,
+				AC97D5D3254F1CFC00A3E5C3 /* Main.storyboard */,
+				AC97D5D6254F1CFE00A3E5C3 /* Assets.xcassets */,
+				AC97D5D8254F1CFE00A3E5C3 /* LaunchScreen.storyboard */,
+				AC97D5DB254F1CFE00A3E5C3 /* Info.plist */,
+			);
+			path = Convertch;
+			sourceTree = "<group>";
+		};
+		AC97D5E2254F1CFF00A3E5C3 /* Convertch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AC97D5E3254F1CFF00A3E5C3 /* Interface.storyboard */,
+				AC97D5E6254F1D0000A3E5C3 /* Assets.xcassets */,
+				AC97D5E8254F1D0000A3E5C3 /* Info.plist */,
+			);
+			path = "Convertch WatchKit App";
+			sourceTree = "<group>";
+		};
+		AC97D5F1254F1D0000A3E5C3 /* Convertch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AC97D5F4254F1D0000A3E5C3 /* ExtensionDelegate.swift */,
+				AC97D5F6254F1D0000A3E5C3 /* NotificationController.swift */,
+				AC97D5F8254F1D0000A3E5C3 /* ComplicationController.swift */,
+				AC97D60F254F1DF100A3E5C3 /* Commons.swift */,
+				AC97D5F2254F1D0000A3E5C3 /* InterfaceController.swift */,
+				AC97D611254F1DF100A3E5C3 /* ConversionInterfaceController.swift */,
+				AC97D5FA254F1D0200A3E5C3 /* Assets.xcassets */,
+				AC97D5FC254F1D0200A3E5C3 /* Info.plist */,
+				AC97D5FD254F1D0200A3E5C3 /* PushNotificationPayload.apns */,
+			);
+			path = "Convertch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC97D5C9254F1CFC00A3E5C3 /* Convertch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC97D608254F1D0200A3E5C3 /* Build configuration list for PBXNativeTarget "Convertch" */;
+			buildPhases = (
+				AC97D5C6254F1CFC00A3E5C3 /* Sources */,
+				AC97D5C7254F1CFC00A3E5C3 /* Frameworks */,
+				AC97D5C8254F1CFC00A3E5C3 /* Resources */,
+				AC97D607254F1D0200A3E5C3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC97D5E1254F1CFF00A3E5C3 /* PBXTargetDependency */,
+			);
+			name = Convertch;
+			productName = Convertch;
+			productReference = AC97D5CA254F1CFC00A3E5C3 /* Convertch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC97D5DD254F1CFE00A3E5C3 /* Convertch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC97D604254F1D0200A3E5C3 /* Build configuration list for PBXNativeTarget "Convertch WatchKit App" */;
+			buildPhases = (
+				AC97D5DC254F1CFE00A3E5C3 /* Resources */,
+				AC97D603254F1D0200A3E5C3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC97D5F0254F1D0000A3E5C3 /* PBXTargetDependency */,
+			);
+			name = "Convertch WatchKit App";
+			productName = "Convertch WatchKit App";
+			productReference = AC97D5DE254F1CFE00A3E5C3 /* Convertch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AC97D5EC254F1D0000A3E5C3 /* Convertch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC97D600254F1D0200A3E5C3 /* Build configuration list for PBXNativeTarget "Convertch WatchKit Extension" */;
+			buildPhases = (
+				AC97D5E9254F1D0000A3E5C3 /* Sources */,
+				AC97D5EA254F1D0000A3E5C3 /* Frameworks */,
+				AC97D5EB254F1D0000A3E5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Convertch WatchKit Extension";
+			productName = "Convertch WatchKit Extension";
+			productReference = AC97D5ED254F1D0000A3E5C3 /* Convertch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC97D5C2254F1CFC00A3E5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					AC97D5C9254F1CFC00A3E5C3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					AC97D5DD254F1CFE00A3E5C3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					AC97D5EC254F1D0000A3E5C3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = AC97D5C5254F1CFC00A3E5C3 /* Build configuration list for PBXProject "Convertch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC97D5C1254F1CFC00A3E5C3;
+			productRefGroup = AC97D5CB254F1CFC00A3E5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC97D5C9254F1CFC00A3E5C3 /* Convertch */,
+				AC97D5DD254F1CFE00A3E5C3 /* Convertch WatchKit App */,
+				AC97D5EC254F1D0000A3E5C3 /* Convertch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC97D5C8254F1CFC00A3E5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC97D5DA254F1CFE00A3E5C3 /* LaunchScreen.storyboard in Resources */,
+				AC97D5D7254F1CFE00A3E5C3 /* Assets.xcassets in Resources */,
+				AC97D5D5254F1CFC00A3E5C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC97D5DC254F1CFE00A3E5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC97D5E7254F1D0000A3E5C3 /* Assets.xcassets in Resources */,
+				AC97D5E5254F1CFF00A3E5C3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC97D5EB254F1D0000A3E5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC97D5FB254F1D0200A3E5C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC97D5C6254F1CFC00A3E5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC97D5D2254F1CFC00A3E5C3 /* ViewController.swift in Sources */,
+				AC97D5CE254F1CFC00A3E5C3 /* AppDelegate.swift in Sources */,
+				AC97D5D0254F1CFC00A3E5C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC97D5E9254F1D0000A3E5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC97D5F7254F1D0000A3E5C3 /* NotificationController.swift in Sources */,
+				AC97D5F9254F1D0000A3E5C3 /* ComplicationController.swift in Sources */,
+				AC97D5F5254F1D0000A3E5C3 /* ExtensionDelegate.swift in Sources */,
+				AC97D616254F1DF100A3E5C3 /* ConversionInterfaceController.swift in Sources */,
+				AC97D614254F1DF100A3E5C3 /* Commons.swift in Sources */,
+				AC97D5F3254F1D0000A3E5C3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC97D5E1254F1CFF00A3E5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC97D5DD254F1CFE00A3E5C3 /* Convertch WatchKit App */;
+			targetProxy = AC97D5E0254F1CFF00A3E5C3 /* PBXContainerItemProxy */;
+		};
+		AC97D5F0254F1D0000A3E5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC97D5EC254F1D0000A3E5C3 /* Convertch WatchKit Extension */;
+			targetProxy = AC97D5EF254F1D0000A3E5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC97D5D3254F1CFC00A3E5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC97D5D4254F1CFC00A3E5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC97D5D8254F1CFE00A3E5C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC97D5D9254F1CFE00A3E5C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC97D5E3254F1CFF00A3E5C3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC97D5E4254F1CFF00A3E5C3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC97D5FE254F1D0200A3E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC97D5FF254F1D0200A3E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC97D601254F1D0200A3E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DC3L9V65W;
+				INFOPLIST_FILE = "Convertch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.aevdokimoff.Convertch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		AC97D602254F1D0200A3E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DC3L9V65W;
+				INFOPLIST_FILE = "Convertch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.aevdokimoff.Convertch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		AC97D605254F1D0200A3E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DC3L9V65W;
+				IBSC_MODULE = Convertch_WatchKit_Extension;
+				INFOPLIST_FILE = "Convertch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.aevdokimoff.Convertch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		AC97D606254F1D0200A3E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DC3L9V65W;
+				IBSC_MODULE = Convertch_WatchKit_Extension;
+				INFOPLIST_FILE = "Convertch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.aevdokimoff.Convertch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		AC97D609254F1D0200A3E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DC3L9V65W;
+				INFOPLIST_FILE = Convertch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.aevdokimoff.Convertch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC97D60A254F1D0200A3E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DC3L9V65W;
+				INFOPLIST_FILE = Convertch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.aevdokimoff.Convertch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC97D5C5254F1CFC00A3E5C3 /* Build configuration list for PBXProject "Convertch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC97D5FE254F1D0200A3E5C3 /* Debug */,
+				AC97D5FF254F1D0200A3E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC97D600254F1D0200A3E5C3 /* Build configuration list for PBXNativeTarget "Convertch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC97D601254F1D0200A3E5C3 /* Debug */,
+				AC97D602254F1D0200A3E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC97D604254F1D0200A3E5C3 /* Build configuration list for PBXNativeTarget "Convertch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC97D605254F1D0200A3E5C3 /* Debug */,
+				AC97D606254F1D0200A3E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC97D608254F1D0200A3E5C3 /* Build configuration list for PBXNativeTarget "Convertch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC97D609254F1D0200A3E5C3 /* Debug */,
+				AC97D60A254F1D0200A3E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC97D5C2254F1CFC00A3E5C3 /* Project object */;
+}
